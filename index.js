@@ -1,9 +1,17 @@
 module.exports = {
+  "allowUncaught": false,
+  "bail": false,
+  "delay": false,
   "diff": true,
   "exit": true,
-  "extension": ["js", "ts"],
+  "extensions": ['.test.js','.test.ts'],
   "package": "./package.json",
-  "spec": ["./test/*.js", "./test/**/*.js", "./test/*.ts", "./test/**/*.ts"],
+  "recursive": true,
+  "reporter": 'min',
+  "require": ["ts-node/register"],
   "slow": "75",
-  "timeout": "60000"
+  "spec": ["./test/*", "./test/**/*"],
+  "timeout": "60000",
+  "ui": 'bdd',
+  "useStrict": true,
 };
