@@ -4,14 +4,14 @@ module.exports = {
   "delay": false,
   "diff": true,
   "exit": true,
-  "extensions": ['.test.js','.test.ts'],
+  "extensions": [".test.js",".test.ts"],
   "package": "./package.json",
   "recursive": true,
-  "reporter": 'min',
+  "reporter": "min",
   "require": ["ts-node/register"],
   "slow": "75",
-  "spec": ["./test/*", "./test/**/*"],
+  "spec": ["./test/**/*"],
   "timeout": "60000",
-  "ui": 'bdd',
   "useStrict": true,
+  "ui": "bdd"
 };
