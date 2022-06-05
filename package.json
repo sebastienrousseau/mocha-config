@@ -1,6 +1,6 @@
 {
   "name": "@sebastienrousseau/mocha-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Mocha Configuration Files and rules",
   "keywords": [
     "mocha"
