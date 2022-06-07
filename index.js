@@ -10,7 +10,7 @@ module.exports = {
   "reporter": "min",
   "require": ["ts-node/register"],
   "slow": "75",
-  "spec": ["./test/**/*"],
+  "spec": ["./test/**/*", "./__tests__/**/*"],
   "timeout": "60000",
   "useStrict": true,
   "ui": "bdd"
