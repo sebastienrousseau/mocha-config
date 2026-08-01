@@ -33,7 +33,8 @@
     "index.mjs",
     "index.cjs",
     "index.d.ts",
-    "mocha-config.svg"
+    "mocha-config.svg",
+    "LICENSE"
   ],
   "publishConfig": {
     "access": "public"
