@@ -1,31 +1,50 @@
 {
   "name": "@sebastienrousseau/mocha-config",
-  "version": "0.0.5",
-  "description": "Mocha Configuration Files and rules",
-  "keywords": [
-    "mocha"
-  ],
+  "version": "1.0.0",
+  "description": "Shareable Mocha test runner configuration files and rules",
   "author": "Sebastien Rousseau <sebastienrousseau@users.noreply.github.com>",
-  "homepage": "https://mocha-config.dev",
   "license": "ISC",
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
+  "homepage": "https://github.com/sebastienrousseau/mocha-config#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sebastienrousseau/mocha-config.git"
   },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
-  },
   "bugs": {
     "url": "https://github.com/sebastienrousseau/mocha-config/issues"
   },
+  "keywords": [
+    "mocha",
+    "mocharc",
+    "test-runner",
+    "testing"
+  ],
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node test/test.js",
+    "lint": "node test/test.js"
+  },
+  "peerDependencies": {
+    "mocha": ">=10.0.0"
+  },
   "devDependencies": {
-    "mocha": "^0.25.1"
+    "mocha": "^10.4.0"
   }
 }
