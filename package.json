@@ -49,5 +49,9 @@
   },
   "devDependencies": {
     "mocha": "^11.8.0"
+  },
+  "overrides": {
+    "brace-expansion@>=2.0.0 <2.1.4": ">=2.1.4 <3.0.0",
+    "serialize-javascript@<=7.0.4": ">=7.0.5 <8.0.0"
   }
 }
