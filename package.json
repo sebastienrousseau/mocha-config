@@ -3,7 +3,7 @@
   "version": "0.0.3",
   "description": "Shareable Mocha test runner configuration files and rules",
   "author": "Sebastien Rousseau <sebastienrousseau@users.noreply.github.com>",
-  "license": "ISC",
+  "license": "Apache-2.0 OR MIT",
   "homepage": "https://github.com/sebastienrousseau/mocha-config#readme",
   "repository": {
     "type": "git",
