@@ -1,12 +1,6 @@
 /**
- * Advanced usage example with custom overrides for @sebastienrousseau/mocha-config
+ * Advanced custom Mocha runner configuration
  */
-const baseConfig = require("../index.cjs");
-
-const customConfig = Object.assign({}, baseConfig, {
-  _custom: true,
-  _timestamp: new Date().toISOString()
-});
-
-console.log("Custom extended configuration created:");
-console.log(customConfig._custom ? "Custom configuration active" : "Error");
+const base = require("../index.cjs");
+const custom = { ...base, bail: true, timeout: 5000 };
+console.log("Custom bail mode active:", custom.bail);
