@@ -1,6 +1,6 @@
 {
   "name": "@sebastienrousseau/mocha-config",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Shareable Mocha test runner configuration files and rules",
   "author": "Sebastien Rousseau <sebastienrousseau@users.noreply.github.com>",
   "license": "Apache-2.0 OR MIT",
