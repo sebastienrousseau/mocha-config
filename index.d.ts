@@ -1,18 +1,8 @@
+// SPDX-FileCopyrightText: 2026 Sebastien Rousseau <sebastian.rousseau@gmail.com>
+// SPDX-License-Identifier: Apache-2.0 OR MIT
+
 export interface MochaConfig {
-  allowUncaught?: boolean;
-  bail?: boolean;
-  delay?: boolean;
-  diff?: boolean;
-  exit?: boolean;
-  extension?: string[];
-  package?: string;
-  recursive?: boolean;
-  reporter?: string;
-  require?: string[];
-  slow?: number;
-  spec?: string[];
-  timeout?: number;
-  ui?: string;
+  [key: string]: unknown;
 }
 
 declare const config: MochaConfig;
