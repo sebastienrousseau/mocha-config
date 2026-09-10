@@ -22,17 +22,22 @@ An exhaustive overview covering **100% of the features, rules, and capabilities*
 ## Feature Deep Dive
 
 ### 1. BDD Interface Preset
+
 Standard `describe` and `it` testing semantics (`ui: 'bdd'`). Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
 ### 2. Recursive Discovery
+
 Traverses test subdirectories automatically (`recursive: true`). Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
 ### 3. Colorized Diffs
+
 High-contrast diff display on test assertion failures (`diff: true`). Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
 ### 4. Multi-Extension Support
+
 Executes .js, .ts, and .mjs test suites. Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
 ### 5. Generous Timeouts
+
 Prevents flaky asynchronous test failures (`timeout: 10000`). Designed to guarantee deterministic behavior across all development and continuous integration environments.
 

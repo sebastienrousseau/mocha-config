@@ -1,18 +1,14 @@
+// SPDX-FileCopyrightText: 2026 Sebastien Rousseau <sebastian.rousseau@gmail.com>
+// SPDX-License-Identifier: Apache-2.0 OR MIT
+
 /**
- * Modern Mocha ESM Configuration
+ * ESM entrypoint.
+ *
+ * The configuration is defined once, in `index.cjs`, and re-exported here so the
+ * two module systems cannot drift apart. Node resolves a CommonJS default import
+ * to `module.exports`, which is exactly the value consumers of the CJS entry get.
  */
-export default {
-  "allowUncaught": false,
-  "bail": false,
-  "delay": false,
-  "diff": true,
-  "exit": true,
-  "extension": ["js", "ts", "mjs", "cjs"],
-  "package": "./package.json",
-  "recursive": true,
-  "reporter": "spec",
-  "slow": 75,
-  "spec": ["test/**/*.test.js", "test/**/*.spec.js", "__tests__/**/*"],
-  "timeout": 10000,
-  "ui": "bdd"
-};
+
+import config from "./index.cjs";
+
+export default config;
