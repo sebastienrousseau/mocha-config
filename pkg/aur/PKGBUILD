@@ -1,6 +1,6 @@
 # Maintainer: Sebastien Rousseau <sebastian.rousseau@gmail.com>
 pkgname=nodejs-sebastienrousseau-mocha-config
-pkgver=0.0.7
+pkgver=0.0.9
 pkgrel=1
 pkgdesc="Shareable Mocha test runner configuration files and rules"
 arch=('any')
