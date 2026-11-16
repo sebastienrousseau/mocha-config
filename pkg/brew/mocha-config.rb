@@ -6,7 +6,7 @@
 class MochaConfig < Formula
   desc "Shareable Mocha test runner configuration files and rules"
   homepage "https://github.com/sebastienrousseau/mocha-config"
-  url "https://registry.npmjs.org/@sebastienrousseau/mocha-config/-/mocha-config-0.0.7.tgz"
+  url "https://registry.npmjs.org/@sebastienrousseau/mocha-config/-/mocha-config-0.0.9.tgz"
   license any_of: ["Apache-2.0", "MIT"]
 
   depends_on "node"
